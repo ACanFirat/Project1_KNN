@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-
 import sys
 sys.path.append('C:\\Users\\acfir\\Desktop\\Coding\\Artificial Intelligence\\Project1_KNN\\CRUD')
 from PyQt5 import QtCore, QtGui, QtWidgets
@@ -60,7 +57,7 @@ class Ui_UpdateWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Update"))
         self.iDLabel.setText(_translate("MainWindow", "ID"))
         self.comboBox.setItemText(0, _translate("MainWindow", "Pregnancies"))
         self.comboBox.setItemText(1, _translate("MainWindow", "Glucose"))
