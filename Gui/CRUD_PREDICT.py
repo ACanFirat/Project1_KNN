@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets
 
@@ -109,7 +106,7 @@ class Ui_PredictWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Predict"))
         self.label_1.setText(_translate("MainWindow", "Pregnancies"))
         self.label_2.setText(_translate("MainWindow", "Glucose"))
         self.label_3.setText(_translate("MainWindow", "BloodPressure"))
