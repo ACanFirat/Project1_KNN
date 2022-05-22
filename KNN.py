@@ -1,7 +1,3 @@
-# coding: utf-8
-
-
-
 import pandas as pd
 import sqlite3
 import matplotlib.pyplot as plt
@@ -42,7 +38,7 @@ class KNN():
 
         
         self.knn.fit(x_train,y_train)
-        prediction = self.knn.predict(x_test)
+        #prediction = self.knn.predict(x_test)
         
         return 1 
         
