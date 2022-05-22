@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-
 import sys
 sys.path.append('C:\\Users\\acfir\\Desktop\\Coding\\Artificial Intelligence\\Project1_KNN\\CRUD')
 from PyQt5 import QtCore, QtGui, QtWidgets
@@ -93,7 +90,7 @@ class Ui_CreateWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "Create Window"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Create"))
         self.label_1.setText(_translate("MainWindow", "Pregnancies:"))
         self.label_2.setText(_translate("MainWindow", "Glucose:"))
         self.label_3.setText(_translate("MainWindow", "BloodPressure:"))
