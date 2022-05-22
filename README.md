@@ -17,3 +17,5 @@ Our project predicts diabetes with the KNN algorithm. Our program takes a datase
 ![ Image Delete]( https://github.com/ACanFirat/Project1_KNN/blob/main/screenshots/delete.PNG)
 
 
+I did this poject with my friend whoes name is Can. He done a greatjob with GUI. 
+Thanks to him! https://github.com/canceylandag
